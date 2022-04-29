@@ -1,0 +1,14 @@
+<div>home works</div>
+
+<div>
+    <table *ngIf="arrDatas">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+      </tr>
+      <tr *ngFor="let data of arrDatas">
+        <td>{{data.ID}}</td>
+        <td>{{data.Name}}</td>
+      </tr>
+    </table>
+  </div>
