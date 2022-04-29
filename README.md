@@ -1,13 +1,12 @@
-# Angular Http Get() Post() Service
+# Angular Router Guards
 
-If U r using newer version of angular then the angular new version does not support .map you have to install this through cmd
+Angular route guards are interfaces provided by angular which when implemented allow us to control the accessibility of a route based on condition provided in class implementation of that interface.
 
-npm install --save rxjs-compat
-via this you can enjoy with old technique .
+# Types of Angular Route Gurads
 
-## note:
-don't forget to import these lines.
+1. CanActivate
+2. CanDeactivate
+3. Resolve
+4. CanLoad
+5. CanActivateChild
 
-import { Observable, Subject } from 'rxjs';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
